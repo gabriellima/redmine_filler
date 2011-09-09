@@ -33,11 +33,3 @@ Running
 
     from redmine_filler.redmine import Redmine
 
-
-External dependencies
----------------------
-
-1. splinter::
-
-    pip install splinter
-
