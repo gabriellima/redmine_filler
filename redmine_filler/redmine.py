@@ -102,7 +102,6 @@ class Redmine(object):
             for custom_field_number, custom_field_value in field_value.items():
                 self._browser.fill(ISSUE_TAG + '[%s][%s]' % (field_id,
                     custom_field_number), custom_field_value)
-        import ipdb; ipdb.set_trace()
         for field_id, field_value in issue_fields.items():
             if type(field_value) == type({}):
                 fill_custom_field(field_id, field_value)
