@@ -1,0 +1,14 @@
+*.pyc
+*.swp
+*.swn
+*.swo
+.coverage
+docs/_build/*
+tags
+build/*
+*.orig
+.ropeproject
+dist/*
+*.log
+redmine_filler.egg-info/*
+
