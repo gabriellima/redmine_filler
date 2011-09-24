@@ -63,7 +63,7 @@ Running
 
     ::
 
-        r = Redmine('http://my_redmine.com/','user', 'pass','aos','eap_id=201')
+        r = Redmine('http://my_redmine.com/','user', 'pass','aos','eap_id=224')
 
 * **Create new issue and return its id**
 
